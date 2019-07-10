@@ -1,24 +1,69 @@
 {
-  "posts": [
+  "places": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Italy",
+      "visa_required": false
     },
     {
       "id": 2,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Switzerland",
+      "visa_required": true
+    },
+    {
+      "id": 3,
+      "name": "France",
+      "visa_required": false
     }
   ],
-  "comments": [
+  "interests": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "placeId": 1,
+      "name": "Local Market1",
+      "description": "Local market where you can purchase local products and try the local food",
+      "cost": 0.00,
+      "review": "You can definitely get things for a lower price if you are willing to bargain!"
+    },
+    {
+      "id": 2,
+      "placeId": 2,
+      "name": "Local Market2",
+      "description": "Local market where you can purchase local products and try the local food",
+      "cost": 0.00,
+      "review": "You can definitely get things for a lower price if you are willing to bargain!"
+    },
+    {
+      "id": 3,
+      "placeId": 3,
+      "name": "Local Market3",
+      "description": "Local market where you can purchase local products and try the local food",
+      "cost": 0.00,
+      "review": "You can definitely get things for a lower price if you are willing to bargain!"
+    },
+    {
+      "id": 4,
+      "placeId": 1,
+      "name": "Local Market4",
+      "description": "Local market where you can purchase local products and try the local food",
+      "cost": 0.00,
+      "review": "You can definitely get things for a lower price if you are willing to bargain!"
+    },
+    {
+      "id": 5,
+      "placeId": 2,
+      "name": "Local Market5",
+      "description": "Local market where you can purchase local products and try the local food",
+      "cost": 0.00,
+      "review": "You can definitely get things for a lower price if you are willing to bargain!"
+    },
+    {
+      "id": 6,
+      "placeId": 3,
+      "name": "Local Market6",
+      "description": "Local market where you can purchase local products and try the local food",
+      "cost": 0.00,
+      "review": "You can definitely get things for a lower price if you are willing to bargain!"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
